@@ -17,8 +17,8 @@ public class StringMethodExample {
 		//toLower
 		System.out.println("");
 		System.out.println("String to Lower Case");
-		String carName = "BENGALURU";
-		String carNameLower = carName.toLowerCase();
+		String cityName = "BENGALURU";
+		String cityNameLower = carName.toLowerCase();
 		System.out.println(carNameLower);
 
 		//isEmpty
@@ -31,7 +31,7 @@ public class StringMethodExample {
 		//split
 		System.out.println("");
 		System.out.println("Split String");
-		String ownerName = "Who Are You";
+		String ownerName = "Arun Kumar Shetty";
 		String[] nameSplit = ownerName.split(" ");
 		System.out.println(nameSplit[0]);
 		System.out.println(nameSplit[1]);
