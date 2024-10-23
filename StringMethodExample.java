@@ -18,8 +18,8 @@ public class StringMethodExample {
 		System.out.println("");
 		System.out.println("String to Lower Case");
 		String cityName = "BENGALURU";
-		String cityNameLower = carName.toLowerCase();
-		System.out.println(carNameLower);
+		String cityNameLower = cityName.toLowerCase();
+		System.out.println(cityNameLower);
 
 		//isEmpty
 		System.out.println("");
