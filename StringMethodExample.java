@@ -33,9 +33,9 @@ public class StringMethodExample {
 		System.out.println("Split String");
 		String ownerName = "Arun Kumar Shetty";
 		String[] nameSplit = ownerName.split(" ");
-		System.out.println(nameSplit[0]);
-		System.out.println(nameSplit[1]);
-		System.out.println(nameSplit[2]);
+		for (int i=0;i<nameSplit.lenght;i++){
+			System.out.println(nameSplit[i]);
+		}
 
 		//Palindrome
 		System.out.println("");
